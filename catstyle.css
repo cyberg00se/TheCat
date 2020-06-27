@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: black;
+}
+.catcontainer{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.cat{
+	width: 200px;
+	height: 200px;
+	background: sandybrown;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 65% 65% 40% 40%;
+}
+.eyes{
+	width: 100%;
+	margin-top: 10%;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+.eye{
+	width: 60px;
+	height: 60px;
+	background: white;
+	display: inline-block;
+	margin: 3px;
+	position: relative;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.ball{
+	width: 30px;
+	height: 30px;
+	background: black;
+	border-radius: 50%;
+	border: 5px solid skyblue;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.ears{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	top: 10%;
+	text-align: center;
+}
+.ear{
+	position: relative;
+	display: inline-block;
+	width: 0; 
+  	height: 0; 
+  	border-bottom: 120px solid sandybrown; 
+  	border-left: 60px solid transparent; 
+  	border-right: 60px solid transparent;
+}
+#left_ear{
+	left: 0px;
+	transform: rotate(-20deg);
+}
+#right_ear{
+	right: 0px;
+	transform: rotate(20deg);
+}
+.tail {
+	position: relative;
+	left: 65%;
+	width: 140px;
+	height: 110px;
+	background-color: transparent;
+	border: solid sandybrown;
+	border-width: 0 20px 25px 0 ;
+	border-radius: 85px/70px;
+}
